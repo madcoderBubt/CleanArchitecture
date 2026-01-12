@@ -7,17 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.1" />
-    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.1" />
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.1" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BackendTemplate.Application\BackendTemplate.Application.csproj" />
+    <ProjectReference Include="..\BackendTemplate.Domain\BackendTemplate.Domain.csproj" />
     <ProjectReference Include="..\BackendTemplate.Infrastructure\BackendTemplate.Infrastructure.csproj" />
     <ProjectReference Include="..\BackendTemplate.Shared\BackendTemplate.Shared.csproj" />
-    <ProjectReference Include="..\..\aspire\BackendTemplate.ServiceDefaults\BackendTemplate.ServiceDefaults.csproj" />
   </ItemGroup>
 
 </Project>

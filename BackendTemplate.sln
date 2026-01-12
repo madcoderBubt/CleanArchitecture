@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendTemplate.AppHost", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendTemplate.ServiceDefaults", "aspire\BackendTemplate.ServiceDefaults\BackendTemplate.ServiceDefaults.csproj", "{6A74AED7-DA19-47ED-8B11-5281B22740EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendTemplate.Auth", "src\BackendTemplate.Auth\BackendTemplate.Auth.csproj", "{39F786A9-9FDA-4B07-AA5B-9CE16D252715}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -131,6 +133,18 @@ Global
 		{6A74AED7-DA19-47ED-8B11-5281B22740EC}.Release|x64.Build.0 = Release|Any CPU
 		{6A74AED7-DA19-47ED-8B11-5281B22740EC}.Release|x86.ActiveCfg = Release|Any CPU
 		{6A74AED7-DA19-47ED-8B11-5281B22740EC}.Release|x86.Build.0 = Release|Any CPU
+		{39F786A9-9FDA-4B07-AA5B-9CE16D252715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39F786A9-9FDA-4B07-AA5B-9CE16D252715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39F786A9-9FDA-4B07-AA5B-9CE16D252715}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{39F786A9-9FDA-4B07-AA5B-9CE16D252715}.Debug|x64.Build.0 = Debug|Any CPU
+		{39F786A9-9FDA-4B07-AA5B-9CE16D252715}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{39F786A9-9FDA-4B07-AA5B-9CE16D252715}.Debug|x86.Build.0 = Debug|Any CPU
+		{39F786A9-9FDA-4B07-AA5B-9CE16D252715}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39F786A9-9FDA-4B07-AA5B-9CE16D252715}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39F786A9-9FDA-4B07-AA5B-9CE16D252715}.Release|x64.ActiveCfg = Release|Any CPU
+		{39F786A9-9FDA-4B07-AA5B-9CE16D252715}.Release|x64.Build.0 = Release|Any CPU
+		{39F786A9-9FDA-4B07-AA5B-9CE16D252715}.Release|x86.ActiveCfg = Release|Any CPU
+		{39F786A9-9FDA-4B07-AA5B-9CE16D252715}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -144,5 +158,6 @@ Global
 		{4915A95E-7048-4756-96FF-8681D1F80EE6} = {0AB3BF05-4346-4AA6-1389-037BE0695223}
 		{B1709F76-2946-4555-8E3D-DAC65F9886B6} = {64880D93-BAB4-FF83-898C-B934B68C31A9}
 		{6A74AED7-DA19-47ED-8B11-5281B22740EC} = {64880D93-BAB4-FF83-898C-B934B68C31A9}
+		{39F786A9-9FDA-4B07-AA5B-9CE16D252715} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 	EndGlobalSection
 EndGlobal
